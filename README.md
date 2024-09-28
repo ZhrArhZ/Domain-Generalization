@@ -1,2 +1,2 @@
 # Domain-Generalization
-Domain generalization papers (2022+) with code and guidance on their relevance
+A collection of recent domain generalization papers (2022 onwards) with code and concise recommendations.
