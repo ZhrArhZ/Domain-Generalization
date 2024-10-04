@@ -11,7 +11,7 @@ A collection of recent domain generalization papers (2022 onwards) with code and
   - [Paper: Generalizable Decision Boundaries: Dualistic Meta-Learning for Open Set Domain Generalization](https://openaccess.thecvf.com/content/ICCV2023/html/Wang_Generalizable_Decision_Boundaries_Dualistic_Meta-Learning_for_Open_Set_Domain_Generalization_ICCV_2023_paper.html)
   - [Code: Implementation of the proposed method](https://github.com/zzwdx/MEDIC)
 
-- Single domain generalization (SDG): <br>
+- **Single domain generalization (SDG)**: <br>
 
   If you only have data from one domain and can't collect more due to privacy concerns or high data collection costs, 
   and you’re looking to expand your dataset, especially for image-related problems, this paper introduces a robust data 
@@ -20,3 +20,10 @@ A collection of recent domain generalization papers (2022 onwards) with code and
 
     - [Paper: AdvST: Revisiting Data Augmentations for Single Domain Generalization](https://ojs.aaai.org/index.php/AAAI/article/view/30184)
     - [Code: Implementation of the proposed method](https://github.com/gtzheng/AdvST)
+
+ - **Generalization in Image classification**: <br>
+ 
+   This paper proposes that using both high-level and low-level features together can significantly enhance classification, especially when combined with a strategy to separate domain-      specific and class-specific features. By focusing on this separation, the model becomes more robust across different domains. Additionally, the method leverages contrastive loss to       pull similar representations closer and push dissimilar ones apart, further improving generalization performance.
+
+      - [Paper: Multiscale and Multilayer Contrastive Learning for Domain Generalization](https://ieeexplore.ieee.org/abstract/document/10472869)
+      - [Code: Implementation of the proposed method](https://github.com/aristotelisballas/m2cl)
